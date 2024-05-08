@@ -49,9 +49,9 @@ export const MobileNavigation = ({ isMenuOpen, onMenuOpenChange }: MobileNavigat
       <SheetContent className="flex w-full max-w-[350px] flex-col">
         <Link href="/" onClick={handleMenuItemClick}>
           <Image
-            src={LogoImage}
-            alt="Documenso Logo"
-            className="dark:invert"
+            src={"https://i.ibb.co/0ckg2BH/Logo.png"}
+            alt="Sanpsign Logo"
+            // className="dark:invert"
             width={170}
             height={25}
           />

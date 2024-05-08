@@ -28,6 +28,9 @@ const config = {
       bodySizeLimit: '50mb',
     },
   },
+  images: {
+    domains: ['i.ibb.co'],
+  },
   reactStrictMode: true,
   transpilePackages: [
     '@documenso/assets',

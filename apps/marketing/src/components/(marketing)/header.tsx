@@ -28,7 +28,7 @@ export const Header = ({ className, ...props }: HeaderProps) => {
       <div className="flex items-center space-x-4">
         <Link href="/" className="z-10" onClick={() => setIsHamburgerMenuOpen(false)}>
           <Image
-            src={LogoImage}
+            src={"https://i.ibb.co/0ckg2BH/Logo.png"}
             alt="Documenso Logo"
             className="dark:invert"
             width={170}

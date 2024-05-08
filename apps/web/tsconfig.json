@@ -1,6 +1,8 @@
 {
   "extends": "@documenso/tsconfig/nextjs.json",
   "compilerOptions": {
+    "jsx": "react",
+    "jsx": "react",
     "baseUrl": ".",
     "allowJs": true,
     "plugins": [
