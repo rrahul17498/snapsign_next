@@ -16,7 +16,7 @@ services:
       - database:/var/lib/postgresql/data
 
   documenso:
-    image: snapsign_next_prod_1.0
+    image: snapsign_next_prod_1.1:latest
     depends_on:
       database:
         condition: service_healthy
