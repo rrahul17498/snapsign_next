@@ -65,7 +65,7 @@ export const DocumentInviteEmailTemplate = ({
                 <Img
                   src={'https://i.ibb.co/0ckg2BH/Logo.png'}
                   alt="Snapsign Logo"
-                  className="mb-4 h-14 rounded-md""
+                  className="mb-4 h-14 rounded-md"
                 />
 
                 <TemplateDocumentInvite
