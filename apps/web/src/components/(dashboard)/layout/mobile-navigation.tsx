@@ -6,7 +6,6 @@ import { useParams } from 'next/navigation';
 
 import { signOut } from 'next-auth/react';
 
-import LogoImage from '@documenso/assets/logo.png';
 import { getRootHref } from '@documenso/lib/utils/params';
 import { Sheet, SheetContent } from '@documenso/ui/primitives/sheet';
 import { ThemeSwitcher } from '@documenso/ui/primitives/theme-switcher';
@@ -49,9 +48,9 @@ export const MobileNavigation = ({ isMenuOpen, onMenuOpenChange }: MobileNavigat
       <SheetContent className="flex w-full max-w-[350px] flex-col">
         <Link href="/" onClick={handleMenuItemClick}>
           <Image
-            src={LogoImage}
-            alt="Documenso Logo"
-            className="dark:invert"
+            src={"https://i.ibb.co/0ckg2BH/Logo.png"}
+            alt="Sanpsign Logo"
+            // className="dark:invert"
             width={170}
             height={25}
           />
@@ -87,7 +86,7 @@ export const MobileNavigation = ({ isMenuOpen, onMenuOpenChange }: MobileNavigat
           </div>
 
           <p className="text-muted-foreground text-sm">
-            © {new Date().getFullYear()} Documenso, Inc. <br /> All rights reserved.
+            © {new Date().getFullYear()} Snapsign, Inc. <br /> All rights reserved.
           </p>
         </div>
       </SheetContent>

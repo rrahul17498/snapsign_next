@@ -394,7 +394,7 @@ export const Widget = ({ className, children, ...props }: WidgetProps) => {
           </DialogHeader>
 
           <DialogDescription>
-            By signing you signal your support of Documenso's mission in a <br></br>
+            By signing you signal your support of Snapsign's mission in a <br></br>
             <strong>non-legally binding, but heartfelt way</strong>. <br></br>
             <br></br>You also unlock the option to purchase the early supporter plan including
             everything we build this year for fixed price.

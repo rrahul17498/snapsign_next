@@ -48,9 +48,9 @@ export const ResetPasswordTemplate = ({
             <Container className="mx-auto mb-2 mt-8 max-w-xl rounded-lg border border-solid border-slate-200 p-4 backdrop-blur-sm">
               <Section>
                 <Img
-                  src={getAssetUrl('/static/logo.png')}
-                  alt="Documenso Logo"
-                  className="mb-4 h-6"
+                  src={'https://i.ibb.co/0ckg2BH/Logo.png'}
+                  alt="Snapsign Logo"
+                  className="mb-4 h-14 rounded-md"
                 />
 
                 <TemplateResetPassword
