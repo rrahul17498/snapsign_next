@@ -16,7 +16,7 @@ services:
       - database:/var/lib/postgresql/data
 
   documenso:
-    image: documenso/documenso:latest
+    image: snapsign_next_prod_1.0
     depends_on:
       database:
         condition: service_healthy
@@ -62,7 +62,7 @@ services:
     ports:
       - ${PORT:-3000}:${PORT:-3000}
     volumes:
-      - /opt/documenso/cert.p12:/opt/documenso/cert.p12
+      - ../../apps/web/example/cert.p12:/opt/documenso/cert.p12
 
 volumes:
   database:
