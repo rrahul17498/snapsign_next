@@ -6,7 +6,6 @@ import { useParams } from 'next/navigation';
 
 import { signOut } from 'next-auth/react';
 
-import LogoImage from '@documenso/assets/logo.png';
 import { getRootHref } from '@documenso/lib/utils/params';
 import { Sheet, SheetContent } from '@documenso/ui/primitives/sheet';
 import { ThemeSwitcher } from '@documenso/ui/primitives/theme-switcher';
@@ -87,7 +86,7 @@ export const MobileNavigation = ({ isMenuOpen, onMenuOpenChange }: MobileNavigat
           </div>
 
           <p className="text-muted-foreground text-sm">
-            © {new Date().getFullYear()} Documenso, Inc. <br /> All rights reserved.
+            © {new Date().getFullYear()} Snapsign, Inc. <br /> All rights reserved.
           </p>
         </div>
       </SheetContent>

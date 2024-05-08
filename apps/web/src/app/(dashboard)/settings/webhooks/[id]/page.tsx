@@ -114,7 +114,7 @@ export default function WebhookPage({ params }: WebhookPageOptions) {
                     </FormControl>
 
                     <FormDescription>
-                      The URL for Documenso to send webhook events to.
+                      The URL for Snapsign to send webhook events to.
                     </FormDescription>
 
                     <FormMessage />
